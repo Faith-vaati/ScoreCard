@@ -1,0 +1,94 @@
+html {
+  background-color: rgb(222, 238, 233);
+}
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: rgb(81, 144, 171);
+  margin: 10em;
+}
+h1 {
+  color: white;
+  font-size: 2em;
+  padding-top: 1em;
+}
+#header {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+
+h3 {
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+}
+
+/* #home {
+} */
+
+#guest {
+  margin-left: auto;
+}
+#score {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+h2 {
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 800;
+}
+
+#homeScore {
+  background-color: rgb(62, 71, 79);
+  padding: 1em;
+}
+
+#guestScore {
+  margin-left: auto;
+  background-color: rgb(62, 71, 79);
+  padding: 1em;
+}
+#count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#countHome,
+#countGuest {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-left: 260px;
+  margin-right: 250px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: rgb(81, 144, 171);
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+}
+
+button:hover {
+  background-color: #ddd;
+}
